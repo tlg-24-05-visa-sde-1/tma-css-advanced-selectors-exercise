@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  background-color: #ff0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+aside {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* 
+Use Descendant Combinator selector
+Give all h2 descendants of elements with a class name of "container" the following CSS Rule
+{
+  color: #2c3e50;
+}
+*/
+
+/* 
+Use Child Combinator selector
+Give all ul elements that are direct children of nav elements the following CSS Rule
+{
+  list-style-type: none;
+  padding: 0;
+}
+*/
+
+/* 
+Use Child Combinator selector
+Give all li elements that are direct children of ul elements (that are direct children of nav elements) the following CSS Rule
+{
+  display: inline-block;
+  margin: 0 10px;
+}
+*/
+
+/* 
+Use General Sibling Combinator selector
+Give all section elements that are general siblings (i.e. come after, on the same level) of other section elements the following CSS Rule
+{
+  border-top: 1px solid #ddd;
+}
+*/
+
+/* 
+Use Adjacent Sibling Combinator selector
+Give all p elements that are adjacent siblings (i.e. come immediately after, on the same level) of other h2 elements the following CSS Rule
+{
+  font-weight: bold;
+}
+*/
+
+/* ------------------------ BONUS ----------------- */
+/* 
+Use the Hover Pseudo-class selector
+When anchor elements are hovered, give them the following CSS Rule
+{
+  color: #3498db;
+  text-decoration: underline;
+}
+*/
+
+/* 
+Use a First-of-type Pseudo-class selector
+Give the first p element of its type among children elements of sections the following CSS Rule
+{
+  color: #e74c3c;
+}
+*/
+
+/* 
+Use a Last-child Pseudo-class selector
+Give the last of the li elements that are children of uls the following CSS Rule
+{
+  font-style: italic;
+}
+*/
+
+/* 
+Use a Last-of-type Pseudo-class selector
+Give the last p element of its type among children elements of sections the following CSS Rule
+{
+  color: #8e44ad;
+}
+*/
