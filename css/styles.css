@@ -35,31 +35,32 @@ aside {
   margin-top: 20px;
 }
 
-/* 
-Use Descendant Combinator selector
-Give all h2 descendants of elements with a class name of "container" the following CSS Rule
-{
+
+/* Use Descendant Combinator selector
+Give all h2 descendants of elements with a class name of "container" the following CSS Rule */
+
+.container h2{
   color: #2c3e50;
 }
-*/
 
-/* 
-Use Child Combinator selector
-Give all ul elements that are direct children of nav elements the following CSS Rule
-{
+/* Use Child Combinator selector
+Give all ul elements that are direct children of nav elements the following CSS Rule */
+
+nav > ul{
   list-style-type: none;
   padding: 0;
 }
-*/
 
-/* 
-Use Child Combinator selector
-Give all li elements that are direct children of ul elements (that are direct children of nav elements) the following CSS Rule
-{
+
+
+/* Use Child Combinator selector
+Give all li elements that are direct children of ul elements (that are direct children of nav elements) the following CSS Rule */
+
+nav > ul > li{
   display: inline-block;
   margin: 0 10px;
 }
-*/
+
 
 /* 
 Use General Sibling Combinator selector
